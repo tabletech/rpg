@@ -29,11 +29,11 @@
 	],
 	"classes": {
 		"barbarian": {
-			"description": "A fierce warrior of primitive background who can enter a battle rage.",
+			"description": "",
 			"hit die": "d12",
 			"primary ability": "strength",
 			"saving throw proficiencies": ["strength", "constitution"],
-			"weapon proficiencies": ["simple", "martial"] 
+			"weapon proficiencies": ["simple", "martial"],
 			"armor proficiencies": ["light", "medium", "shields"]
 		},
 		"bard": {
@@ -49,7 +49,7 @@
 			"hit die": "d8",
 			"primary ability": "wisdom",
 			"saving throw proficiencies": ["wisdom", "charisma"],
-			"weapon proficiencies": ["simple"]
+			"weapon proficiencies": ["simple"],
 			"armor proficiencies": ["light", "medium", "shields"]
 		},
 		"druid": {
@@ -57,7 +57,7 @@
 			"hit die": "d8",
 			"primary ability": "wisdom",
 			"saving throw proficiencies": ["intelligence", "wisdom"],
-			"weapon proficiencies": ["clubs", "daggers", "darts", "javelins", "maces", "quarterstaffs", "scimitars", "sickles", "slings", "spears"] 
+			"weapon proficiencies": ["clubs", "daggers", "darts", "javelins", "maces", "quarterstaffs", "scimitars", "sickles", "slings", "spears"],
 			"armor proficiencies": ["light", "medium non-metal", "shields non-metal"]
 		},
 		"fighter": {
@@ -65,7 +65,7 @@
 			"hit die": "d10",
 			"primary ability": "strength",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"monk": {
@@ -73,9 +73,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
-			"armor proficiencies": ["", ""]
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"paladin": {
@@ -83,7 +81,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"ranger": {
@@ -91,7 +89,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"rogue": {
@@ -99,7 +97,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"sorcerer": {
@@ -107,7 +105,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"warlock": {
@@ -115,7 +113,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 		"wizard": {
@@ -123,7 +121,7 @@
 			"hit die": "",
 			"primary ability": "",
 			"saving throw proficiencies": ["", ""],
-			"weapon proficiencies": ["", ""] 
+			"weapon proficiencies": ["", ""],
 			"armor proficiencies": ["", ""]
 		},
 	},
@@ -133,7 +131,7 @@
 				"type": "initiative",
 				"value": "5"
 			},
-			"description": "You can't be surprised while you are conscious. Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
+			"description": ""
 		},
 		"athlete": {
 			"bonus": {
